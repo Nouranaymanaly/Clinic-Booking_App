@@ -17,7 +17,7 @@
     }
     .heading 
     {
-        @apply text-[44px] leading-[54px] font-[700] text-headingcolor;
+        @apply text-[44px] leading-[54px] font-[700] text-headingColor;
     }
     .text__para 
     {
@@ -25,6 +25,10 @@
     }
     .header{
         @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]
+    }
+    .clinic__section
+    {
+        @apply bg-[url('./assets/images/home-bg.png')] bg-no-repeat bg-center bg-cover
     }
 }
 @media only screen and (max-width: 1024px) 
