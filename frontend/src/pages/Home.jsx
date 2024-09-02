@@ -5,6 +5,10 @@ import icon02 from '../assets/images/icon02.png'
 import icon03 from '../assets/images/icon03.png'
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs'
+import About from '../components/About/About'
+import Features from '../components/Features/Features'
+import ServicesList from '../components/Services/ServicesList'
+import ClinicList from '../components/Clinics/ClinicList'
 
 const Home = () => {
   return (
@@ -65,7 +69,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* SERVICES SECTION */}
+      {/* DOCTOR'S SECTION */}
       <section className="mt-[60px]">
         <div className="container mx-auto">
           <div className='lg:w-[470px] mx-auto text-center'>
@@ -124,6 +128,42 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* DOCTOR'S SECTION END */}
+
+      {/*About section*/}
+      <About/>
+
+      {/*SURGICAL SERVICES SECTION*/}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our medical services</h2>
+            <p className="text__para text-center">
+              World-class care for everyone. Our health System offers unmatched,expert health care.
+            </p>
+          </div>
+          <ServicesList/>
+        </div>
+      </section>
+      {/*SURGICAL SERVICES SECTION END*/}
+
+      {/*FEATURES SECTION*/}
+      <Features/>
+
+      {/*CLINICS SECTION*/}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our Clinics</h2>
+            <p className="text__para text-center">
+              World-class care for everyone. Our health System offers unmatched,expert health care.
+            </p>
+          </div>
+          <ClinicList/>
+        </div>
+      </section>
+      {/*CLINICS SECTION END*/}
+
     </>
   )
 }

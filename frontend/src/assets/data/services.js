@@ -18,7 +18,7 @@ export const services = [
     textColor: "#01B5C5",
   },
   {
-    name: "Mental Health",
+    name: "Spine",
     desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
     bgColor: "rgba(1, 181, 197, .2)",
     textColor: "#01B5C5",
@@ -30,7 +30,7 @@ export const services = [
     textColor: "#FEB60D",
   },
   {
-    name: "Burn Treatment",
+    name: "Gynecology",
     desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
     bgColor: "rgba(151, 113, 255, .2)",
     textColor: "#9771FF",
