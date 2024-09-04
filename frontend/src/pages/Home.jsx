@@ -97,7 +97,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Finging clinic */}
+            {/* Finding clinic */}
             <div className='py-[30px] px-5'>
               <div className='flex items-center justify-center'>
                 <img src={icon02} alt="" />
@@ -140,7 +140,7 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">Our medical services</h2>
+            <h2 className="heading text-center">Our Medical Services</h2>
             <p className="text__para text-center">
               World-class care for everyone. Our health System offers unmatched,expert health care.
             </p>
@@ -185,7 +185,7 @@ const Home = () => {
       <section>
       <div className="container">
       <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">What our patients say</h2>
+            <h2 className="heading text-center">Patients Feedback</h2>
             <p className="text__para text-center">
               World-class care for everyone. Our health System offers unmatched,expert health care.
             </p>
