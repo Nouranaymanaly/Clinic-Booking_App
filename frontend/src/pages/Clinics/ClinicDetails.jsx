@@ -4,7 +4,6 @@ import starImg from '../../assets/images/Star.png'
 import ClinicLocation from './ClinicLocation';
 import Feedback from './Feedback';
 import SidePanel from './SidePanel';
-
 const ClinicDetails = () => {
   const [tab, setTab] = useState ('location')
   return <section> 
