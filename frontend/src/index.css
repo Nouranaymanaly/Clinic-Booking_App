@@ -24,11 +24,11 @@
         @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
     }
     .header{
-        @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]
+        @apply bg-[url('./assets/images/header_bg.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]
     }
     .clinic__section
     {
-        @apply bg-[url('./assets/images/home-bg.png')] bg-no-repeat bg-center bg-cover
+        @apply bg-[url('./assets/images/bg.png')] bg-no-repeat bg-center bg-cover
     }
 }
 @media only screen and (max-width: 1024px) 
