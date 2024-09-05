@@ -25,15 +25,14 @@ const Home = () => {
               <div className="lg:w-[570px]">
                 {/* header */}
                 <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
-                  Aiming for a Healthier and Longer Life
+                  Your Health, Our Priority
                 </h1>
                 {/* description */}
-                <p className='text__para mt-4'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <p className='text__para mt-4 text-justify'>
+                  We are committed to helping you achieve a healthier, longer life with expert surgical care and personalized attention. </p>
                 {/* booking button */}
-                <Link to='/clinics'>
-                  <button className='btn mt-6'>Book an Appointment</button>
+                <Link to='/clinics'>          
+                  <button className='btn mt-6'> Book Appointment</button>
                 </Link>
               </div>
 
@@ -42,21 +41,21 @@ const Home = () => {
                 {/* Experience */}
                 <div>
                   <h2 className="text-[36px] leading-[46px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">10+</h2>
-                  <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
+                  <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[5px]"></span>
                   <p className='text__para mt-2'>Years of Experience</p>
                 </div>
 
                 {/* Locations */}
                 <div>
                   <h2 className="text-[36px] leading-[46px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">3</h2>
-                  <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]"></span>
+                  <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[5px]"></span>
                   <p className='text__para mt-2'>Clinic Locations</p>
                 </div>
 
                 {/* Surgeries */}
                 <div>
                   <h2 className="text-[36px] leading-[46px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">40+</h2>
-                  <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
+                  <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[5px]"></span>
                   <p className='text__para mt-2'>Surgeries</p>
                 </div>
               </div>
@@ -76,20 +75,20 @@ const Home = () => {
       <section className="mt-[60px]">
         <div className="container mx-auto">
           <div className='lg:w-[470px] mx-auto text-center'>
-            <h2 className='heading text-headingColor'>Providing the Best Surgical Services</h2>
-            <p className="text__para mt-4">World-class care for everyone. Our health system offers unmatched, expert health care.</p>
+            <h2 className='heading text-headingColor'>Excellence In Surgery </h2>
+            <p className="text__para mt-4"> Delivering top-tier surgical solutions with precision and care to ensure the best possible outcomes for every patient.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
             {/* Service Cards */}
             <div className='py-[30px] px-5'>
               <div className='flex items-center justify-center'>
-                <img src={icon01} alt="" />
+                <img src={icon01} alt=""/>
               </div>
               <div className='mt-[30px] text-center'>
                 <h2 className='text-[26px] leading-9 text-headerColor font-[700]'>Services</h2>
                 <p className='text-[16px] leading-7 text-textColor font-[400] mt-4'>
-                  World-class care for everyone. Our health system offers unmatched, expert health care, from the lab to the clinic.
+                Explore our wide range of specialized surgical services tailored to meet your health needs.
                 </p>
                 <Link to='/services' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
                   <BsArrowRight className='group-hover:text-white w-6 h-5' />
@@ -100,12 +99,12 @@ const Home = () => {
             {/* Finding clinic */}
             <div className='py-[30px] px-5'>
               <div className='flex items-center justify-center'>
-                <img src={icon02} alt="" />
+                <img src={icon02} alt="" width = '148px'/>
               </div>
               <div className='mt-[30px] text-center'>
                 <h2 className='text-[26px] leading-9 text-headerColor font-[700]'>Find a Clinic</h2>
                 <p className='text-[16px] leading-7 text-textColor font-[400] mt-4'>
-                  World-class care for everyone. Our health system offers unmatched, expert health care, from the lab to the clinic.
+                  Locate the nearest clinic to your location and get directions easily.
                 </p>
                 <Link to='/clinics' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
                   <BsArrowRight className='group-hover:text-white w-6 h-5' />
@@ -116,12 +115,12 @@ const Home = () => {
             {/* Book */}
             <div className='py-[30px] px-5'>
               <div className='flex items-center justify-center'>
-                <img src={icon03} alt="" />
+                <img src={icon03} alt=""/>
               </div>
               <div className='mt-[30px] text-center'>
                 <h2 className='text-[26px] leading-9 text-headerColor font-[700]'>Book Appointment</h2>
                 <p className='text-[16px] leading-7 text-textColor font-[400] mt-4'>
-                  World-class care for everyone. Our health system offers unmatched, expert health care, from the lab to the clinic.
+                  Schedule your appointment online with just a few clicks for a hassle-free experience.
                 </p>
                 <Link to='/clinics' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
                   <BsArrowRight className='group-hover:text-white w-6 h-5' />
@@ -142,7 +141,7 @@ const Home = () => {
           <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-center">Our Medical Services</h2>
             <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched,expert health care.
+              Discover our wide array of medical services, tailored to meet your needs with expert care and advanced treatments for optimal health and recovery.
             </p>
           </div>
           <ServicesList/>
@@ -159,7 +158,7 @@ const Home = () => {
           <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-center">Our Clinics</h2>
             <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched,expert health care.
+              With three convenient locations in Cairo, Giza, and Old Cairo, we are committed to providing accessible, high-quality care close to you.
             </p>
           </div>
           <ClinicList/>
@@ -174,7 +173,7 @@ const Home = () => {
             <img src={faqImg} alt="" />
           </div>
           <div className="w-full md:w-1/2">
-          <h2 className="heading"> Most asked questions by patients</h2>
+          <h2 className="heading"> FAQ </h2>
           <FaqList/>
           </div>
         </div>
@@ -185,10 +184,9 @@ const Home = () => {
       <section>
       <div className="container">
       <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">Patients Feedback</h2>
+            <h2 className="heading text-center">Patient Feedback</h2>
             <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched,expert health care.
-            </p>
+              Hear from our patients about their experiences with our care. Your feedback helps us continue to improve and deliver the best surgical services possible.            </p>
           </div>
           <Testimonial/>
       </div>

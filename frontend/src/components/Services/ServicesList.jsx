@@ -13,7 +13,7 @@ const ServicesList = () => {
         <ServiceCard item={item} index={index} key={index} />
       ))}
       <Link to="/services">
-        <button className="btn">View more</button>
+        <button className="btn">View More</button>
       </Link>
     </div>
   );

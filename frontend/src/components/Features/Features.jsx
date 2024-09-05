@@ -10,7 +10,7 @@ const Features = () => {
         {/*feature content*/}
         <div className="xl:w-[670px]">
           <h2 className="heading">
-            Website Features <br/> What can you do?
+            Website Features <br/> 
           </h2>
           <ul className="pl-4">
             <li className="text__para" >

@@ -1,22 +1,23 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "What medical care do you provide?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "We offer specialized surgical services and comprehensive medical care tailored to your needs, focusing on quality and patient well-being",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "What happens if I need to go to a hospital?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "If hospital care is required, we will coordinate with the appropriate facilities to ensure a seamless transition and continued care.",  
   },
   {
     question: "Can I visit your medical office?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Yes, you can visit one of our three medical office for consultations and follow-up appointments. Please check our locations and book in advance."
+
   },
   {
-    question: "Does you provide urgent care?",
+    question: "Do you provide urgent care?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+      "We do not provide urgent care services. For urgent medical issues, please visit an emergency room or urgent care center."  
+  }
 ];

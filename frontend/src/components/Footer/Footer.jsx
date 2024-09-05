@@ -38,11 +38,11 @@ const quickLinks01 = [
 ];
 const quickLinks02 = [
   {
-    path: "/find-a-clinic",
+    path: "/clinics",
     display: "Find a Clinic"
   },
   {
-    path: "/find-a-clinic",
+    path: "/clinics",
     display: "Book Appointment"
   },
   {
@@ -51,14 +51,10 @@ const quickLinks02 = [
   },
   {
     path: "/",
-    display: "Get a Opinion"
+    display: "Get an Opinion"
   }
 ];
 const quickLinks03 = [
-  {
-    path: "/",
-    display: "Donate"
-  },
   {
     path: "/contact",
     display: "Contact Us"
@@ -75,7 +71,7 @@ const Footer = () => {
           <div >
             <div className='flex items-center'>
             <img src={logo} alt="" width="70px"/>
-            <p className='text-[16px] leading-7 font-[400] text-textColor mt-2'>Copyright © {year} developed by Nouran Aly, Habeeba Hassan all right reserved</p>
+            <p className='text-[16px] leading-7 font-[400] text-textColor mt-2'>Copyright © {year} developed by Nouran Aly, Habeeba Hassan all rights reserved</p>
             </div>
             <div className='flex items-center gap-3 px-[70px] '>
               {socialLinks.map((link,index)=>(
