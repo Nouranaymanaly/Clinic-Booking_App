@@ -12,6 +12,7 @@ export const clinics = [
     photo: doctorImg01,
     totalPatients: 400,
     address: "ABC, CAIRO, EGYPT",
+    description: 'Located in the heart of Cairo, Dr. Luai Essam delivers premium, patient-specific healthcare, emphasizing thorough and expert medical care.'
   },
   {
     id: "02",
@@ -22,6 +23,7 @@ export const clinics = [
     photo: doctorImg02,
     totalPatients: 500,
     address: "ABC, GIZA, EGYPT",
+    description: 'Giza Clinic offers specialized care and expertise, providing a patient-first approach in Giza.',
   },
   {
     id: "03",
@@ -32,5 +34,6 @@ export const clinics = [
     photo: doctorImg03,
     totalPatients: 200,
     address: "ABC, OLD CAIRO, EGYPT",
+    description: 'Old Clinic offers specialized care and expertise, providing a patient-first approach in Old Cairo.',
   },
 ];
